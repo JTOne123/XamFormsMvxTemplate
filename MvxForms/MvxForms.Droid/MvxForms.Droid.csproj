@@ -54,9 +54,15 @@
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
     <Debugger>Xamarin</Debugger>
     <RunCodeAnalysis>false</RunCodeAnalysis>
-    <AndroidSupportedAbis>armeabi-v7a;x86</AndroidSupportedAbis>
+    <AotAssemblies>true</AotAssemblies>
+    <AndroidSupportedAbis>armeabi-v7a;x86;x86_64;arm64-v8a</AndroidSupportedAbis>
+    <AndroidAotAdditionalArguments>no-write-symbols,nodebug</AndroidAotAdditionalArguments>
+    <EnableLLVM>true</EnableLLVM>
+    <BundleAssemblies>true</BundleAssemblies>
+    <EnableProguard>true</EnableProguard>
     <AndroidCreatePackagePerAbi>true</AndroidCreatePackagePerAbi>
     <AndroidUseAapt2>true</AndroidUseAapt2>
+    <AndroidEnableMultiDex>false</AndroidEnableMultiDex>
     <AndroidDexTool>dx</AndroidDexTool>
     <AndroidLinkTool>proguard</AndroidLinkTool>
     <MandroidI18n />
