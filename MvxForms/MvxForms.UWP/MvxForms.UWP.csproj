@@ -137,10 +137,10 @@
       <Version>7.0.4</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>6.2.2</Version>
+      <Version>6.2.8</Version>
     </PackageReference>
     <PackageReference Include="MvvmCross">
-      <Version>6.2.2</Version>
+      <Version>6.2.3</Version>
     </PackageReference>
     <PackageReference Include="MvvmCross.Forms">
       <Version>6.2.2</Version>
